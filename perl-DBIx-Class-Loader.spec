@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	Class-Loader
-Summary:	DBIx::Class::Loader - Dynamic definition of DBIx::Class subclasses.
-#Summary(pl):	
+Summary:	DBIx::Class::Loader - Dynamic definition of DBIx::Class subclasses
+Summary(pl):	DBIx::Class::Loader - dynamiczne definiowanie podklas DBIx::Class
 Name:		perl-DBIx-Class-Loader
 Version:	0.01
 Release:	1
@@ -26,11 +26,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-DBIx::Class::Loader automates the definition of DBIx::Class subclasses.
-It scans table schemas and setup columns and primary key information.
+DBIx::Class::Loader automates the definition of DBIx::Class
+subclasses. It scans table schemas and setup columns and primary key
+information.
 
-# %description -l pl
-# TODO
+%description -l pl
+DBIx::Class::Loader automatyzuje definiowanie podklas DBIx::Class.
+Skanuje schematy tabel i ustawia informacje o kolumnach oraz kluczu
+g³ównym.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
