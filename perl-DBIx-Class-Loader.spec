@@ -8,13 +8,13 @@
 Summary:	DBIx::Class::Loader - Dynamic definition of DBIx::Class subclasses
 Summary(pl):	DBIx::Class::Loader - dynamiczne definiowanie podklas DBIx::Class
 Name:		perl-DBIx-Class-Loader
-Version:	0.01
+Version:	0.05
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a69b3d9eae5010085355acdcf1d43ff6
+Source0:	http://www.cpan.org/modules/by-authors/id/S/SR/SRI/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	3bf247821d72776c14b87ecadc2bbdfa
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -56,7 +56,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc Changes
 %{perl_vendorlib}/DBIx/Class/*.pm
 %{perl_vendorlib}/DBIx/Class/Loader
 %{_mandir}/man3/*
