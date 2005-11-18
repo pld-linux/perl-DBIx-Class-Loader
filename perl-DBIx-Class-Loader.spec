@@ -14,7 +14,7 @@ Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/S/SR/SRI/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c86319adf2e315045f9516828beb9588
+# Source0-md5:	f7c20cdb7fb6f3594e5ac8de72560594
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
