@@ -4,7 +4,6 @@
 
 %define	pdir	DBIx
 %define	pnam	Class-Loader
-%include	/usr/lib/rpm/macros.perl
 Summary:	DBIx::Class::Loader - Dynamic definition of DBIx::Class subclasses
 Summary(pl.UTF-8):	DBIx::Class::Loader - dynamiczne definiowanie podklas DBIx::Class
 Name:		perl-DBIx-Class-Loader
