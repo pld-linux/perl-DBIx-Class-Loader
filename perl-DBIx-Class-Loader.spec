@@ -8,7 +8,7 @@ Summary:	DBIx::Class::Loader - Dynamic definition of DBIx::Class subclasses
 Summary(pl.UTF-8):	DBIx::Class::Loader - dynamiczne definiowanie podklas DBIx::Class
 Name:		perl-DBIx-Class-Loader
 Version:	0.21
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
